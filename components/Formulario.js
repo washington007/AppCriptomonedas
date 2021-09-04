@@ -63,7 +63,7 @@ const Formulario = ({ moneda, criptomoneda, guardarMoneda, guardarCriptomoneda, 
             </Picker>
             
             <TouchableHighlight style={styles.btnCotizar} onPress= { () => cotizarPrecio()} >
-                <Text style={styles.textoCotizar}>Cotizar</Text>
+                <Text style={styles.textoCotizar}>Cotizar...</Text>
             </TouchableHighlight>
         </View>
     );
