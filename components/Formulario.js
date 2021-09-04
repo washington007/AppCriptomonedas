@@ -45,7 +45,7 @@ const Formulario = ({ moneda, criptomoneda, guardarMoneda, guardarCriptomoneda, 
 
     return (
         <View>
-            <Text style={styles.label}>Moneda</Text>
+            <Text style={styles.label}>Monedas...</Text>
             <Picker selectedValue={moneda} onValueChange={ moneda => obtenerMoneda(moneda) } itemStyle={{ height: 120 }}>    
                 <Picker.Item label=" -Seleccione- " value="" />
                 <Picker.Item label="Dolar de Estados Unidos" value="USD" />
