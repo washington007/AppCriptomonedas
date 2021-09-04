@@ -54,7 +54,7 @@ const Formulario = ({ moneda, criptomoneda, guardarMoneda, guardarCriptomoneda, 
                 <Picker.Item label="Libra Esterlina" value="GBP" />
             </Picker>
 
-            <Text style={styles.label}>Criptomoneda</Text>
+            <Text style={styles.label}>Criptomonedas...</Text>
             <Picker selectedValue={criptomoneda} onValueChange={ cripto => obtenerCriptomoneda(cripto) } itemStyle={{ height: 120 }}>    
                 <Picker.Item label=" -Seleccione- " value="" />
                 { criptomonedas.map( cripto => (
