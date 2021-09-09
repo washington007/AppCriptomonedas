@@ -45,7 +45,7 @@ const Formulario = ({ moneda, criptomoneda, guardarMoneda, guardarCriptomoneda, 
 
     return (
         <View>
-            <Text style={styles.label}>Monedas...</Text>
+            <Text style={styles.label}>Monedas</Text>
             <Picker selectedValue={moneda} onValueChange={ moneda => obtenerMoneda(moneda) } itemStyle={{ height: 120 }}>    
                 <Picker.Item label=" -Seleccione- " value="" />
                 <Picker.Item label="Dolar de Estados Unidos" value="USD" />
@@ -54,7 +54,7 @@ const Formulario = ({ moneda, criptomoneda, guardarMoneda, guardarCriptomoneda, 
                 <Picker.Item label="Libra Esterlina" value="GBP" />
             </Picker>
 
-            <Text style={styles.label}>Criptomonedas...</Text>
+            <Text style={styles.label}>Criptomonedas</Text>
             <Picker selectedValue={criptomoneda} onValueChange={ cripto => obtenerCriptomoneda(cripto) } itemStyle={{ height: 120 }}>    
                 <Picker.Item label=" -Seleccione- " value="" />
                 { criptomonedas.map( cripto => (
@@ -63,7 +63,7 @@ const Formulario = ({ moneda, criptomoneda, guardarMoneda, guardarCriptomoneda, 
             </Picker>
             
             <TouchableHighlight style={styles.btnCotizar} onPress= { () => cotizarPrecio()} >
-                <Text style={styles.textoCotizar}>Cotizar...</Text>
+                <Text style={styles.textoCotizar}>Cotizar</Text>
             </TouchableHighlight>
         </View>
     );
