@@ -65,7 +65,7 @@ const App = () => {
 const styles = StyleSheet.create({
   imagen: {
     width: '100%',
-    height: 150,
+    height: 160,
     marginHorizontal:'2.5%'
   },
   contenido:{
