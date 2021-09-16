@@ -18,7 +18,6 @@ const App = () => {
         // Consultar la api para obtener la cotizacion
         const url = `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${criptomoneda}&tsyms=${moneda}`;
         const resultado = await axios.get(url);
-        
         //console.log(resultado.data.DISPLAY[criptomoneda][moneda]);
         guardarCargando(true);
 
@@ -28,9 +27,8 @@ const App = () => {
           guardarConsultarAPI(false);
           guardarCargando(false);
         }, 3000);
-        
       }
-    }     
+    }
     cotizarCriptomoneda();
   }, [consultarAPI]);
 
@@ -58,7 +56,7 @@ const App = () => {
             {componente}
           </View>
         </ScrollView>
-    </>    
+    </>
   );
 };
 
