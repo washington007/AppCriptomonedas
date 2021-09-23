@@ -36,6 +36,9 @@ const App = () => {
   const componente = cargando ? <ActivityIndicator size="large" color="#5E49E2"/> : <Cotizacion resultado={resultado} />
 
   //Rama Experimental (Experimento 1)
+
+  //Rama Experimental (Experimento 2)
+  
   //Tener en consideracion el uso de este codigo
   //Tener en consideracion el uso de este codigo (Commit 2)
   return (
