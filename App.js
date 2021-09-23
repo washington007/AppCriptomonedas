@@ -35,6 +35,7 @@ const App = () => {
   //mostrar el s´pinner o el resultado
   const componente = cargando ? <ActivityIndicator size="large" color="#5E49E2"/> : <Cotizacion resultado={resultado} />
 
+  //cambios en la aplicacion para produccion
 
   return (
       <>
