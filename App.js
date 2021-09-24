@@ -37,6 +37,8 @@ const App = () => {
 
   //cambios en la aplicacion para produccion
 
+  //hola mundo esta es una prueba de escritura  para cambiar cambios
+  
   return (
       <>
         <ScrollView>
